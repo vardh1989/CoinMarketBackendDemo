@@ -1,0 +1,1133 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate the technical documentation website",
+        "description": "",
+        "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.;validate-the-technical-documentation-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3268916139,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "using Currency ID 1027 fetch the technical documentation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1027",
+                  "offset": 18
+                }
+              ],
+              "location": "CryptoStepDefs.using_Currency_ID_fetch_the_technical_documentation(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 830894739,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the logo \"logo\" \"https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "logo",
+                  "offset": 17
+                },
+                {
+                  "val": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+                  "offset": 24
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_logo(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24608343,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the technical_doc Url \"technical_doc\" \"[https://github.com/ethereum/wiki/wiki/White-Paper]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "technical_doc",
+                  "offset": 30
+                },
+                {
+                  "val": "[https://github.com/ethereum/wiki/wiki/White-Paper]",
+                  "offset": 46
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_technical_docUrl(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18369123,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the symbol \"symbol\" of currency \"ETH\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "symbol",
+                  "offset": 19
+                },
+                {
+                  "val": "ETH",
+                  "offset": 40
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_symbol_of_currency(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16265589,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the date added \"date_added\" is \"2015-08-07T00:00:00.000Z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "date_added",
+                  "offset": 23
+                },
+                {
+                  "val": "2015-08-07T00:00:00.000Z",
+                  "offset": 39
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_date_added_is(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27015528775,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the tagname \"tags\" is minable \"mineable\" in 1027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 20
+                },
+                {
+                  "val": "mineable",
+                  "offset": 38
+                },
+                {
+                  "val": "1027",
+                  "offset": 51
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_tagname_is_minable(String,String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Validate Mineable tag for Different Crypto IDs",
+        "description": "",
+        "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.;validate-mineable-tag-for-different-crypto-ids;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1778359179,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "using Currency ID 1 fetch the technical documentation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 18
+                }
+              ],
+              "location": "CryptoStepDefs.using_Currency_ID_fetch_the_technical_documentation(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7661858795,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the tagname \"tags\" is minable \"mineable\" in 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 20
+                },
+                {
+                  "val": "mineable",
+                  "offset": 38
+                },
+                {
+                  "val": "1",
+                  "offset": 51
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_tagname_is_minable(String,String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Validate Mineable tag for Different Crypto IDs",
+        "description": "",
+        "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.;validate-mineable-tag-for-different-crypto-ids;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1032925339,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "using Currency ID 2 fetch the technical documentation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 18
+                }
+              ],
+              "location": "CryptoStepDefs.using_Currency_ID_fetch_the_technical_documentation(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36613605,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the tagname \"tags\" is minable \"mineable\" in 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 20
+                },
+                {
+                  "val": "mineable",
+                  "offset": 38
+                },
+                {
+                  "val": "2",
+                  "offset": 51
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_tagname_is_minable(String,String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Validate Mineable tag for Different Crypto IDs",
+        "description": "",
+        "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.;validate-mineable-tag-for-different-crypto-ids;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1630269039,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "using Currency ID 3 fetch the technical documentation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "CryptoStepDefs.using_Currency_ID_fetch_the_technical_documentation(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30962431,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the tagname \"tags\" is minable \"mineable\" in 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 20
+                },
+                {
+                  "val": "mineable",
+                  "offset": 38
+                },
+                {
+                  "val": "3",
+                  "offset": 51
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_tagname_is_minable(String,String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Validate Mineable tag for Different Crypto IDs",
+        "description": "",
+        "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.;validate-mineable-tag-for-different-crypto-ids;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 984978935,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "using Currency ID 4 fetch the technical documentation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 18
+                }
+              ],
+              "location": "CryptoStepDefs.using_Currency_ID_fetch_the_technical_documentation(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31023017,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the tagname \"tags\" is minable \"mineable\" in 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 20
+                },
+                {
+                  "val": "mineable",
+                  "offset": 38
+                },
+                {
+                  "val": "4",
+                  "offset": 51
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_tagname_is_minable(String,String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Validate Mineable tag for Different Crypto IDs",
+        "description": "",
+        "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.;validate-mineable-tag-for-different-crypto-ids;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1190634641,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "using Currency ID 5 fetch the technical documentation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 18
+                }
+              ],
+              "location": "CryptoStepDefs.using_Currency_ID_fetch_the_technical_documentation(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31881219,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the tagname \"tags\" is minable \"mineable\" in 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 20
+                },
+                {
+                  "val": "mineable",
+                  "offset": 38
+                },
+                {
+                  "val": "5",
+                  "offset": 51
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_tagname_is_minable(String,String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Validate Mineable tag for Different Crypto IDs",
+        "description": "",
+        "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.;validate-mineable-tag-for-different-crypto-ids;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1059752301,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "using Currency ID 6 fetch the technical documentation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 18
+                }
+              ],
+              "location": "CryptoStepDefs.using_Currency_ID_fetch_the_technical_documentation(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24938247,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the tagname \"tags\" is minable \"mineable\" in 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 20
+                },
+                {
+                  "val": "mineable",
+                  "offset": 38
+                },
+                {
+                  "val": "6",
+                  "offset": 51
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_tagname_is_minable(String,String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Validate Mineable tag for Different Crypto IDs",
+        "description": "",
+        "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.;validate-mineable-tag-for-different-crypto-ids;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 822516879,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "using Currency ID 7 fetch the technical documentation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 18
+                }
+              ],
+              "location": "CryptoStepDefs.using_Currency_ID_fetch_the_technical_documentation(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25572877,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the tagname \"tags\" is minable \"mineable\" in 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 20
+                },
+                {
+                  "val": "mineable",
+                  "offset": 38
+                },
+                {
+                  "val": "7",
+                  "offset": 51
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_tagname_is_minable(String,String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Validate Mineable tag for Different Crypto IDs",
+        "description": "",
+        "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.;validate-mineable-tag-for-different-crypto-ids;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1200608700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "using Currency ID 8 fetch the technical documentation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 18
+                }
+              ],
+              "location": "CryptoStepDefs.using_Currency_ID_fetch_the_technical_documentation(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25296011,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the tagname \"tags\" is minable \"mineable\" in 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 20
+                },
+                {
+                  "val": "mineable",
+                  "offset": 38
+                },
+                {
+                  "val": "8",
+                  "offset": 51
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_tagname_is_minable(String,String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Validate Mineable tag for Different Crypto IDs",
+        "description": "",
+        "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.;validate-mineable-tag-for-different-crypto-ids;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1502897429,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "using Currency ID 9 fetch the technical documentation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 18
+                }
+              ],
+              "location": "CryptoStepDefs.using_Currency_ID_fetch_the_technical_documentation(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28590206,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the tagname \"tags\" is minable \"mineable\" in 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 20
+                },
+                {
+                  "val": "mineable",
+                  "offset": 38
+                },
+                {
+                  "val": "9",
+                  "offset": 51
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_tagname_is_minable(String,String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Validate Mineable tag for Different Crypto IDs",
+        "description": "",
+        "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.;validate-mineable-tag-for-different-crypto-ids;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 943306824,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "using Currency ID 10 fetch the technical documentation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 18
+                }
+              ],
+              "location": "CryptoStepDefs.using_Currency_ID_fetch_the_technical_documentation(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29924406,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the tagname \"tags\" is minable \"mineable\" in 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 20
+                },
+                {
+                  "val": "mineable",
+                  "offset": 38
+                },
+                {
+                  "val": "10",
+                  "offset": 51
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_tagname_is_minable(String,String,int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Alltests"
+          }
+        ]
+      }
+    ],
+    "name": "CryptoCurrency Test. This feature includes tests that are applicable to crytpocurrency.",
+    "description": "",
+    "id": "cryptocurrency-test.-this-feature-includes-tests-that-are-applicable-to-crytpocurrency.",
+    "keyword": "Feature",
+    "uri": "CryptoCurrency.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "validate cryptocurrency\u0027s ID from its Symbol",
+        "description": "",
+        "id": "price-converter-test.-this-feature-includes-tests-that-are-applicable-to-price-converter-.;validate-cryptocurrency\u0027s-id-from-its-symbol;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2402729983,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the symbol \"BTC\" verify the crypto ID \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BTC",
+                  "offset": 18
+                },
+                {
+                  "val": "1",
+                  "offset": 45
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_crypto_ID(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "validate cryptocurrency\u0027s ID from its Symbol",
+        "description": "",
+        "id": "price-converter-test.-this-feature-includes-tests-that-are-applicable-to-price-converter-.;validate-cryptocurrency\u0027s-id-from-its-symbol;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4956510281,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the symbol \"ETH\" verify the crypto ID \"1027\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ETH",
+                  "offset": 18
+                },
+                {
+                  "val": "1027",
+                  "offset": 45
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_crypto_ID(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "validate cryptocurrency\u0027s ID from its Symbol",
+        "description": "",
+        "id": "price-converter-test.-this-feature-includes-tests-that-are-applicable-to-price-converter-.;validate-cryptocurrency\u0027s-id-from-its-symbol;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4785389847,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Using the symbol \"USDT\" verify the crypto ID \"825\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USDT",
+                  "offset": 18
+                },
+                {
+                  "val": "825",
+                  "offset": 46
+                }
+              ],
+              "location": "CryptoStepDefs.verify_the_crypto_ID(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Validate price converter between Fiat and crypto currency",
+        "description": "",
+        "id": "price-converter-test.-this-feature-includes-tests-that-are-applicable-to-price-converter-.;validate-price-converter-between-fiat-and-crypto-currency;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1365149167,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User gets the \"Bolivian Boliviano\" fiat\u0027s convertID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bolivian Boliviano",
+                  "offset": 15
+                }
+              ],
+              "location": "PriceStepDefs.user_gets_the_fiats_ConvertID(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2019144155,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify the price conversion of 1000 for cryptocurrency \"BTC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 31
+                },
+                {
+                  "val": "BTC",
+                  "offset": 56
+                }
+              ],
+              "location": "PriceStepDefs.verify_the_price_conversion_for_cryptocurrency(int,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Validate price converter between Fiat and crypto currency",
+        "description": "",
+        "id": "price-converter-test.-this-feature-includes-tests-that-are-applicable-to-price-converter-.;validate-price-converter-between-fiat-and-crypto-currency;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1853911414,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User gets the \"Bolivian Boliviano\" fiat\u0027s convertID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bolivian Boliviano",
+                  "offset": 15
+                }
+              ],
+              "location": "PriceStepDefs.user_gets_the_fiats_ConvertID(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1078218022,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify the price conversion of 1000 for cryptocurrency \"ETH\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 31
+                },
+                {
+                  "val": "ETH",
+                  "offset": 56
+                }
+              ],
+              "location": "PriceStepDefs.verify_the_price_conversion_for_cryptocurrency(int,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Alltests"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Validate price converter between Fiat and crypto currency",
+        "description": "",
+        "id": "price-converter-test.-this-feature-includes-tests-that-are-applicable-to-price-converter-.;validate-price-converter-between-fiat-and-crypto-currency;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1537239890,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User gets the \"Bolivian Boliviano\" fiat\u0027s convertID",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bolivian Boliviano",
+                  "offset": 15
+                }
+              ],
+              "location": "PriceStepDefs.user_gets_the_fiats_ConvertID(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2086810292,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify the price conversion of 1000 for cryptocurrency \"USDT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 31
+                },
+                {
+                  "val": "USDT",
+                  "offset": 56
+                }
+              ],
+              "location": "PriceStepDefs.verify_the_price_conversion_for_cryptocurrency(int,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Alltests"
+          }
+        ]
+      }
+    ],
+    "name": "Price Converter Test. This feature includes tests that are applicable to Price Converter .",
+    "description": "",
+    "id": "price-converter-test.-this-feature-includes-tests-that-are-applicable-to-price-converter-.",
+    "keyword": "Feature",
+    "uri": "PriceConverter.feature"
+  }
+]
