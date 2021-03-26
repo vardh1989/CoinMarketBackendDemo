@@ -10,10 +10,10 @@
 2) How To run the tests 
 
   a) From IDE 
-  => Open the project in editor
-  => Let the dependencies download from pom.xml in the project 
-  => Navigate to ~/CoinMarketBackendDemo/src/test/resources/testng.xml
-  => Run the suite.
+ => Open the project in editor
+ => Let the dependencies download from pom.xml in the project 
+ => Navigate to ~/CoinMarketBackendDemo/src/test/resources/testng.xml
+ => Run the suite.
   
   b) From command line
   => Navigate to project folder in terminal 
