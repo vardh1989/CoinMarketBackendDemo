@@ -1,11 +1,11 @@
 # CoinMarketBackendDemo
 
 1) Environment Requirements
-  => Java Version 1.8
-  => IDE:IntelliJ IDEA/Eclipse etc
-  => TestNG
-  => Maven 
-  => Junit
+ => Java Version 1.8
+ => IDE:IntelliJ IDEA/Eclipse etc
+ => TestNG
+ => Maven 
+ => Junit
 
 2) How To run the tests 
 
